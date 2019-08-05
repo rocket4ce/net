@@ -1,0 +1,10 @@
+network:
+  version: 2
+  renderer: networkd
+  wifis:
+    wlo1:
+      dhcp4: true
+      dhcp6: true
+      access-points:
+        "network_ssid_name":
+          password: "**********"
